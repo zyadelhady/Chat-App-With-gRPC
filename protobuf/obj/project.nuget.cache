@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "26kJKLI3YWZMva1d1H5fKFGWHJ5+GlHlZl+kZqk7INk6HchSDtVJp4mRLYXSFik/Dvuiy1tn90vzO4Fx4n+MAA==",
+  "dgSpecHash": "qg6pXFSZ5EVMvKk0gwTs6B7F0tYO/NvdCWtFl96iOpAlBBBeVS8+6lt6t9+vOs0n/KEPwuGVeLF4JyaKe8Eblw==",
   "success": true,
   "projectFilePath": "/home/zyad/projects/gRPChat/protobuf/protobuf.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/zyad/.nuget/packages/google.protobuf/3.25.1/google.protobuf.3.25.1.nupkg.sha512",
+    "/home/zyad/.nuget/packages/grpc.tools/2.59.0/grpc.tools.2.59.0.nupkg.sha512"
+  ],
   "logs": []
 }

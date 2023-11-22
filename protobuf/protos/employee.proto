@@ -4,6 +4,8 @@ package hr.entities;
 
 import "google/protobuf/timestamp.proto";
 
+option csharp_namespace = "Grpc.Course.Protobuf.Test";
+
 /* Represents the Employee entity, with a list of previous employers.
    Also, this definition contains the current address of the employee. */
 message Employee {
@@ -23,7 +25,7 @@ message Employee {
   MaritalStatus marital_status = 8;
 }
 
-   message Address {
+message Address {
   string street_name = 1;
   int32 house_number = 2;
   string city = 3;

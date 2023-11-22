@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xu3cW5LScJKmjNyGSo21hLYwDFQ0m5MSd2vFaj51kcE=",
+  "Source": "groomserver",
+  "BasePath": "_content/groomserver",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
