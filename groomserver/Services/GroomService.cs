@@ -1,3 +1,4 @@
+using Google.Protobuf.WellKnownTypes;
 using gRoom.gRPC.Messages;
 using Grpc.Core;
 
@@ -36,5 +37,25 @@ public class GroomService : Groom.GroomBase
             Console.WriteLine($"News flash: {news.NewsItem}");
         }
         return new NewsStreamStatus { Success = true };
+    }
+
+    public override async Task StartMonitoring(
+        Empty request,
+        IServerStreamWriter<ReceivedMessage> streamWriter,
+        ServerCallContext context
+    )
+    {
+        while (true)
+        {
+            await streamWriter.WriteAsync(
+                new ReceivedMessage
+                {
+                    MsgTime = Timestamp.FromDateTime(DateTime.UtcNow),
+                    User = "1",
+                    Contents = "Test msg"
+                }
+            );
+            await Task.Delay(500);
+        }
     }
 }

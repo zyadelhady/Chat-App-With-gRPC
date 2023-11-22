@@ -2,6 +2,7 @@ syntax = "proto3";
 
 package groom;
 
+import "google/protobuf/empty.proto";
 import "google/protobuf/timestamp.proto";
 
 option csharp_namespace = "gRoom.gRPC.Messages";
@@ -23,7 +24,14 @@ message NewsStreamStatus {
   bool success = 1;
 }
 
+message ReceivedMessage {
+  google.protobuf.Timestamp msg_time = 1;
+  string contents = 2;
+  string user = 3;
+}
+
 service Groom {
   rpc RegisterToRoom(RoomRegistrationRequest) returns (RoomRegistrationResponse);
   rpc SendNewsFlash(stream NewsFlash) returns (NewsStreamStatus);
+  rpc StartMonitoring(google.protobuf.Empty) returns (stream ReceivedMessage);
 }
