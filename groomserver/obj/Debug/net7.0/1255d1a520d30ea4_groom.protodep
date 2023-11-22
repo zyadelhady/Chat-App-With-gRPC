@@ -1,2 +1,3 @@
 obj/Debug/net7.0/Protos/Groom.cs \
-obj/Debug/net7.0/Protos/GroomGrpc.cs: Protos/groom.proto
+obj/Debug/net7.0/Protos/GroomGrpc.cs: /home/zyad/.nuget/packages/grpc.tools/2.49.0/build/native/include/google/protobuf/timestamp.proto\
+ Protos/groom.proto

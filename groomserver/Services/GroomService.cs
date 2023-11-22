@@ -12,7 +12,7 @@ public class GroomService : Groom.GroomBase
         _logger = logger;
     }
 
-    public override Task<RoomRegistrationResponse> RegisterTo(
+    public override Task<RoomRegistrationResponse> RegisterToRoom(
         RoomRegistrationRequest request,
         ServerCallContext context
     )
@@ -23,5 +23,18 @@ public class GroomService : Groom.GroomBase
         _logger.LogInformation($"Room no. {roomNum}");
         var resp = new RoomRegistrationResponse { RoomId = roomNum };
         return Task.FromResult(resp);
+    }
+
+    public override async Task<NewsStreamStatus> SendNewsFlash(
+        IAsyncStreamReader<NewsFlash> newStream,
+        ServerCallContext context
+    )
+    {
+        while (await newStream.MoveNext())
+        {
+            var news = newStream.Current;
+            Console.WriteLine($"News flash: {news.NewsItem}");
+        }
+        return new NewsStreamStatus { Success = true };
     }
 }

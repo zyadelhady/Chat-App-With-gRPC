@@ -1,3 +1,9 @@
+/home/zyad/projects/gRPChat/groomserver/obj/Debug/net7.0/groomserver.csproj.AssemblyReference.cache
+/home/zyad/projects/gRPChat/groomserver/obj/Debug/net7.0/groomserver.GeneratedMSBuildEditorConfig.editorconfig
+/home/zyad/projects/gRPChat/groomserver/obj/Debug/net7.0/groomserver.AssemblyInfoInputs.cache
+/home/zyad/projects/gRPChat/groomserver/obj/Debug/net7.0/groomserver.AssemblyInfo.cs
+/home/zyad/projects/gRPChat/groomserver/obj/Debug/net7.0/groomserver.csproj.CoreCompileInputs.cache
+/home/zyad/projects/gRPChat/groomserver/obj/Debug/net7.0/groomserver.MvcApplicationPartsAssemblyInfo.cache
 /home/zyad/projects/gRPChat/groomserver/bin/Debug/net7.0/appsettings.Development.json
 /home/zyad/projects/gRPChat/groomserver/bin/Debug/net7.0/appsettings.json
 /home/zyad/projects/gRPChat/groomserver/bin/Debug/net7.0/groomserver
@@ -12,12 +18,6 @@
 /home/zyad/projects/gRPChat/groomserver/bin/Debug/net7.0/Grpc.Net.Client.dll
 /home/zyad/projects/gRPChat/groomserver/bin/Debug/net7.0/Grpc.Net.ClientFactory.dll
 /home/zyad/projects/gRPChat/groomserver/bin/Debug/net7.0/Grpc.Net.Common.dll
-/home/zyad/projects/gRPChat/groomserver/obj/Debug/net7.0/groomserver.csproj.AssemblyReference.cache
-/home/zyad/projects/gRPChat/groomserver/obj/Debug/net7.0/groomserver.GeneratedMSBuildEditorConfig.editorconfig
-/home/zyad/projects/gRPChat/groomserver/obj/Debug/net7.0/groomserver.AssemblyInfoInputs.cache
-/home/zyad/projects/gRPChat/groomserver/obj/Debug/net7.0/groomserver.AssemblyInfo.cs
-/home/zyad/projects/gRPChat/groomserver/obj/Debug/net7.0/groomserver.csproj.CoreCompileInputs.cache
-/home/zyad/projects/gRPChat/groomserver/obj/Debug/net7.0/groomserver.MvcApplicationPartsAssemblyInfo.cache
 /home/zyad/projects/gRPChat/groomserver/obj/Debug/net7.0/staticwebassets/msbuild.groomserver.Microsoft.AspNetCore.StaticWebAssets.props
 /home/zyad/projects/gRPChat/groomserver/obj/Debug/net7.0/staticwebassets/msbuild.build.groomserver.props
 /home/zyad/projects/gRPChat/groomserver/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.groomserver.props
