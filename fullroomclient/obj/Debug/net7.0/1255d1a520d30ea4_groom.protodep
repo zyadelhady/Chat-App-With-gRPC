@@ -1,4 +1,0 @@
-obj/Debug/net7.0/Protos/Groom.cs \
-obj/Debug/net7.0/Protos/GroomGrpc.cs: /home/zyad/.nuget/packages/grpc.tools/2.48.0/build/native/include/google/protobuf/empty.proto\
- /home/zyad/.nuget/packages/grpc.tools/2.48.0/build/native/include/google/protobuf/timestamp.proto\
- Protos/groom.proto

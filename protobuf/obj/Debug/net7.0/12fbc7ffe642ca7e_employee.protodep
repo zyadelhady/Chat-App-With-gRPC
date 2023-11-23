@@ -1,2 +1,0 @@
-obj/Debug/net7.0/protos/Employee.cs: /home/zyad/.nuget/packages/grpc.tools/2.59.0/build/native/include/google/protobuf/timestamp.proto\
- protos/employee.proto
